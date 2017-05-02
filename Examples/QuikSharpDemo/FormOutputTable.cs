@@ -70,5 +70,10 @@ namespace QuikSharpDemo
             InitializeComponent();
             dataGridViewCandles.DataSource = _moneyLimit;
         }
+
+        private void dataGridViewCandles_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

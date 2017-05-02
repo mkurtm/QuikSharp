@@ -40,18 +40,21 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewCandles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewCandles.Location = new System.Drawing.Point(13, 13);
+            this.dataGridViewCandles.Location = new System.Drawing.Point(20, 20);
+            this.dataGridViewCandles.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridViewCandles.Name = "dataGridViewCandles";
             this.dataGridViewCandles.ReadOnly = true;
-            this.dataGridViewCandles.Size = new System.Drawing.Size(644, 581);
+            this.dataGridViewCandles.Size = new System.Drawing.Size(966, 894);
             this.dataGridViewCandles.TabIndex = 0;
+            this.dataGridViewCandles.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCandles_CellContentClick);
             // 
             // FormOutputTable
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(669, 606);
+            this.ClientSize = new System.Drawing.Size(1004, 932);
             this.Controls.Add(this.dataGridViewCandles);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormOutputTable";
             this.Text = "FormCandles";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCandles)).EndInit();
